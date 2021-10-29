@@ -1,0 +1,29 @@
+{
+  "name": "cd",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-vampiire/cd.git"
+  },
+  "author": "the-vampiire",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/the-vampiire/cd/issues"
+  },
+  "homepage": "https://github.com/the-vampiire/cd#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "query-string": "^7.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14"
+  }
+}
