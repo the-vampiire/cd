@@ -9,7 +9,7 @@ const API_BASE = "https://api.exchange.coinbase.com";
 const requestBase = axios.create({ baseURL: API_BASE }); // set defaults for all requests
 
 const buildClient = (accessKey, passphrase, secret) =>
-  (endpoint, data = { query: {}, body: {} }) => {
+  (endpoint, data = {}) => {
     const { query = null, body = null } = data;
     const { method, path } = endpoint;
 
